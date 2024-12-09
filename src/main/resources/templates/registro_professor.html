@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/registro_professor.css">
+</head>
+<body>
+<div class="container">
+
+    <img
+            src="assets/Weights-amico pro.svg"
+            alt="Aluna treinando musculação">
+
+    <div class="conteudo">
+
+        <form>
+
+            <div class="title">Registro Professor</div>
+
+            <div class="detalhes_usuario">
+
+                <span class="details">Nome</span>
+                <input type="text" placeholder="Nome completo do professor" required />
+
+                <span class="details">Data de nascimento</span>
+                <input id="date" type="date" />
+
+                <span class="details">E-mail</span>
+                <input type="email" placeholder="Digite o E-mail do professor" required />
+
+                <span class="details">CREF</span>
+                <input type="" placeholder="Digite o CREF do professor" required />
+
+                <span class="details">Senha</span>
+                <input type="password" placeholder="Digite a senha de acesso" required />
+
+                <span class="details">Confirmação da senha</span>
+                <input type="password" placeholder="Repita a senha de acesso" required />
+
+            </div>
+
+            <div class="button">
+                <input type="submit" value="Registrar" />
+            </div>
+
+            <div class="buttonBack">
+                <a routerLink="/">voltar</a>
+            </div>
+
+        </form>
+    </div>
+
+</div>
+</body>
+</html>
